@@ -1,6 +1,6 @@
 variable "machinetags"{
  type = list
- default = ["LINUX1","LINUX2","LINUX3"]
+ default = ["RHEL","CENTOS","VMWARE"]
 }
 variable "vm"{
  type = map
